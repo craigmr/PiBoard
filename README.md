@@ -1,4 +1,15 @@
-PiBoard
-=======
+# PiBoard: Raspberry PI Breadboard
 
-Python class that help control the GPIO pins and helper function for my particular bread board setup.
+Provides helper API to my project breadboard.
+
+## API
+ 
+### BreadBoard.isGarageOpen
+
+Returns a boolean if the garage to my house is open or closed.
+	BreadBoard.isGarageOPen()
+
+### BreadBoard.activateGarageDoor
+
+Behaves like a garage door button.  When called if the garage is closed then it will open and vice versa.
+	BreadBoard.activateGarageDoor()
